@@ -1,0 +1,8 @@
+---
+ - include: common-package.yml
+ - include: swap.yml
+ - include: kube-package.yml
+ - include: init-kube.yml
+ - include: kube-config.yml
+ - include: network.yml
+ - include: kube-join.yml
